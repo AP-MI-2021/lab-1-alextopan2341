@@ -63,7 +63,8 @@ def main():
             y = int(input("Al doilea numar este:"))
             print(get_cmmdc_v2(x, y))
         else:
-            print("Acest exercitiu nu exista")
+            if exer>4:
+                print("Acest exercitiu nu exista")
         print("0. Exit")
         print("1. Numar prim")
         print("2. Produsul numerelor dintr-o lista")
